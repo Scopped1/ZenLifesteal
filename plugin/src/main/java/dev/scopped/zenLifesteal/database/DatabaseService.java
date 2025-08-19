@@ -2,10 +2,10 @@ package dev.scopped.zenLifesteal.database;
 
 import dev.scopped.zenLifesteal.LifestealPlugin;
 import dev.scopped.zenLifesteal.database.connection.ConnectionPoolManager;
+import dev.scopped.zenLifesteal.leaderboard.model.LeaderboardEntry;
 import dev.scopped.zenLifesteal.user.model.LifestealUserImpl;
 import dev.scopped.zenLifesteal.user.models.LifestealUser;
 import dev.scopped.zenLifesteal.user.models.statistics.StatisticType;
-import dev.scopped.zenLifesteal.leaderboard.model.LeaderboardEntry;
 
 import javax.sql.rowset.CachedRowSet;
 import javax.sql.rowset.RowSetProvider;
@@ -13,9 +13,9 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.UUID;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 public class DatabaseService implements DatabaseQuery {
 
