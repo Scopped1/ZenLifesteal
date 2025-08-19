@@ -1,0 +1,7 @@
+name: ZenLifesteal
+version: "1.0.0"
+main: dev.scopped.zenLifesteal.LifestealBootstrap
+api-version: "1.21"
+authors: [ Scopped ]
+load: POSTWORLD
+depend: [ Vault, PlaceholderAPI ]
